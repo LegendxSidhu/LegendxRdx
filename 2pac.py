@@ -24,7 +24,7 @@ print('[â€¢] Join Our Group')
 os.system('xdg-open https://chat.whatsapp.com/Lq98wuNpGsx4z7T1cHZB4x')
 
 try:
-	prox= requests.get('ðŸ”¥').text
+	prox= requests.get('https://github.com/LegendxSidhu').text
 	open('proxies.txt','w').write(proxies)
 except Exception as e:
 	print('\x1b[1;95m[âˆš] LOADING...')
@@ -34,14 +34,14 @@ proxies=open('proxies.txt','r').read().splitlines()
 
 android_models=[]
 try:
-	xx = requests.get('ðŸ”¥').text.splitlines()
+	xx = requests.get('https://github.com/LegendxSidhu').text.splitlines()
 	for line in xx:
 		android_models.append(line)
 except:pass
 
 usr=[]
 try:
-	xd=requests.get('ðŸ”¥()
+	xd=requests.get('https://github.com/LegendxSidhu')
 	for us in xd:
 		usr.append(us)
 except: pass
