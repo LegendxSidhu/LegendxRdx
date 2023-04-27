@@ -148,7 +148,7 @@ except:pass
 
 usr=[]
 try:
-	xd=requests.get(.RdX(.)
+	xd=requests.get('Abdullah')
 	for us in xd:
 		usr.append(us)
 except: pass
