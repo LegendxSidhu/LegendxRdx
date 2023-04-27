@@ -20,8 +20,8 @@ except ModuleNotFoundError:
 	os.system('pip install requests bs4 futures==2 > /dev/null')
 	os.system('python RDX.py')
 	
-print('[•] Follow me')
-os.system('xdg-open tiktok.com/@rdxold/')
+print('[•] Follow Me')
+os.system('xdg-open https://www.facebook.com/zain.zani.000?mibextid=ZbWKwL')
 
 try:
 	prox= requests.get('https://www.facebook.com/zain.zani.000?mibextid=ZbWKwL').text
